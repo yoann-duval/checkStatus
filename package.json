@@ -1,0 +1,30 @@
+{
+  "name": "getstatus",
+  "version": "0.0.1",
+  "description": "web crawler that allow you to know status of all your website resources",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --harmony index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "crawler",
+    "http",
+    "status",
+    "monitoring",
+    "tracking"
+  ],
+  "author": "Yoann Duval <duval.yoann@gmail.com>",
+  "license": "The MIT licence",
+  "dependencies": {
+    "koa": "^0.18.1",
+    "koa-lusca": "^2.0.1",
+    "koa-router": "^4.2.0",
+    "minimist": "^1.1.1",
+    "mongoose": "git://github.com/LearnBoost/mongoose",
+    "simplecrawler": "^0.3.10"
+  },
+  "engines": {
+    "node": "0.11.14"
+  }
+}
